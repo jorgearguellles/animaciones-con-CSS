@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animaciones con CSS</title>
+  <style>
+    .shadow {
+      width: 100px;
+      height: 100px;
+      background: grey;
+      border-radius: 50%;
+    }
+    .circle {
+      width: 100px;
+      height: 100px;
+      background: #108dc7;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #ef8e38, #108dc7);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #ef8e38, #108dc7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      border-radius: 20%;
+    }
+    
+    .circle:hover {
+      transform: scale(0.8,1.2); /* La unidad es con respecto al inicial */
+      transform: skew(20deg); /* La unidad es Angulos, y se usa la palabra deg */
+      transform: rotate(50deg); /* La unidad es Angulos, y se usa la palabra deg en las manesillas del relog*/
+      transform-origin: left top; /* transform origin es el punto base desde el cual se aplica una transformación, por ddealfut es en el centro*/
+    }
+    .circle:hover {
+      /* translate: (X:Horizontal , Y:Vertical); */
+      transform: translate(10px,-10px);
+
+      /* transform: translateY(10px);
+      transform: translateY(10px) translate(10px); */
+    }
+  </style>
+</head>
+<body>
+  <div class="shadow">
+    <div class="circle">
+    </div>
+  </div>
+  
+</body>
+</html>
