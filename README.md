@@ -21,7 +21,7 @@ Esta hecha con :green_heart: y:
 
 ## Vista previa
 
-![App Screenshot](https://github.com/jorgearguellles/batatabit/blob/main/src/img/1.png)
+![App Screenshot](https://github.com/jorgearguellles/animaciones-con-CSS/blob/main/images/1.png)
 
 ## Retroalimentación
 
