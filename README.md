@@ -11,8 +11,8 @@ Jorge Arias Argüelles en [GitHub](https://github.com/jorgearguellles) y en
 
 Esta hecha con :green_heart: y:
 
+- [Estructura en HTML](https://developer.mozilla.org/es/docs/Web/HTML)
 - [Estilos con CSS](https://developer.mozilla.org/es/docs/Web/CSS)
-- [Componentes y lógica con React.js](https://es.reactjs.org)
 - [Desplegada en Github Pages](https://pages.github.com)
 
 ## Demo
